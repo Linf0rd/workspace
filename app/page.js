@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main>
@@ -6,7 +7,7 @@ export default function Home() {
         Create a feedback board in minutes, prioritize features, and
         build products your customers will love.
       </div>
-      <a href="/dashboard">Dashboard</a>
+      <Link href="/dashboard">Dashboard</Link>
     </main>
   );
 }
